@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HOME PAGE</title>
+</head>
+
+<body>
+    <%if (!locals.user) { %>
+        <% }else { %>
+            <h1>Hey <%=locals.user?user:""%>, Welcome to codewarrior technologies</h1>
+            <%}%>
+</body>
+
+</html>
